@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-@RequestMapping("demo-controller")
+@RequestMapping("demo-controller") 
 public class DemoController { 
 	
 	@Inject
