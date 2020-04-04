@@ -13,7 +13,7 @@ public class DemoController {
 	private DemoTraitement demoTraitement;
 	
     @RequestMapping("/{param}")
-    public Integer traitement(@PathVariable(value = "param") Integer param) throws Exception {
+    public String traitement(@PathVariable(value = "param") String param) throws Exception {
     	return demoTraitement.traitement(param);
     }
     
